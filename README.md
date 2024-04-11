@@ -67,14 +67,18 @@ INFO:     Stopping reloader process [149858]
 ```
 allez sur votre navigateur et taper http://127.0.0.1:8000/docs/
 ***n'oubliez pas d'ajouer docs***
-<img src="T1.png" width="40%"/>
-<img src="T2.png" width="40%"/>
+
+<img src="T1.png" width="55%"/>
+
+<img src="T2.png" width="55%"/>
 
 ***cliquez sur try out***
-<img src="T3.png" width="40%"/>
+
+<img src="T3.png" width="55%"/>
 
 ***Reponse du serveur***
-<img src="T4.png" width="40%"/>
+
+<img src="T4.png" width="55%"/>
 
 *** un programme prenant en entrée deux variables product et units
 ```python
@@ -83,10 +87,12 @@ async def place_holder(product:str, units:int):
     return {"message":f"Order for {units} units of {product} place successfully."}
 
 ```
-<img src="T5.png" width="40%"/>
+
+<img src="T5.png" width="55%"/>
 
 ***Reponse du serveur***
-<img src="T6.png" width="40%"/>
+
+<img src="T6.png" width="55%"/>
 
 # Revenons sur le projet principal CHATGPT
 ***commencons par notre chatgpt dans fichier api.py***
@@ -128,4 +134,5 @@ async def Openai(question:str) :
 uvicorn main:app --reload
 ```
 ***navigateur maintenant***
-<img src="T7.png" width="40%"/>
+
+<img src="T7.png" width="55%"/>
